@@ -4,38 +4,52 @@ html, body, .container
     min-height: 100%;
 }
 
+.title {
+    width: 100%;
+    height: 15%;
+    background-color: #eee;
+    color: inherit;
+}
+
 .first {
     float: left;
     width: 20%;
-    height: 30%;
-    background-color: red;
+    height: 25%;
+    background-color: #EEBA4C;
 }
 
 .second{
     float: left;
     width: 20%;
-    height: 70%;
-    background-color: green;
+    height: 60%;
+    background-color: #23B5AF;
 }
 
 
 .third{
     float: right;
     width: 80%;
-    height: 80%;
-    background-color: blue;
+    height: 68%;
+    background-color: #E3493B;
 }
 
 .fourth {
     float: right;
     width: 40%;
-    height: 20%;
-    background-color: #DDDDDD;
+    height: 17%;
+    background-color: #A9DDD9;
 }
 
 .last{
     float: right;
     width: 40%;
-    height: 20%;
-    background-color: yellow;
+    height: 17%;
+    background-color: #7B4A12;
 }
+
+
+.centertext{
+    text-align: center;
+    vertical-align: middle;
+}
+
